@@ -13,10 +13,10 @@ public class ProductsContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Category>().HasData(
-            new Category { CategoryId = 1, Name = "Water" },
-            new Category { CategoryId = 2, Name = "Phone" },
-            new Category { CategoryId = 3, Name = "Bird" },
-            new Category { CategoryId = 4, Name = "Bread" });
+            new Category { CategoryId = 1, Name = "Vesi" },
+            new Category { CategoryId = 2, Name = "Telefon" },
+            new Category { CategoryId = 3, Name = "Lind" },
+            new Category { CategoryId = 4, Name = "Kell" });
 
         modelBuilder.Entity<Product>().HasData(
             new Product { ProductId = 1, CategoryId = 1, Name = "Aura" },
@@ -36,14 +36,14 @@ public class ProductsContext : DbContext
             new Product { ProductId = 22, CategoryId = 3, Name = "Owl" },
             new Product { ProductId = 23, CategoryId = 3, Name = "Crow" },
             new Product { ProductId = 24, CategoryId = 3, Name = "Tit" },
-            new Product { ProductId = 25, CategoryId = 4, Name = "Swan" },
-            new Product { ProductId = 26, CategoryId = 4, Name = "Blackbird" },
-            new Product { ProductId = 27, CategoryId = 4, Name = "Tit" },
-            new Product { ProductId = 28, CategoryId = 4, Name = "Focaccia" },
-            new Product { ProductId = 29, CategoryId = 4, Name = "Malted" },
-            new Product { ProductId = 30, CategoryId = 4, Name = "Sourdough" },
-            new Product { ProductId = 31, CategoryId = 4, Name = "Corn" },
-            new Product { ProductId = 32, CategoryId = 4, Name = "White" },
-            new Product { ProductId = 33, CategoryId = 4, Name = "Soda" });
+            new Product { ProductId = 25, CategoryId = 3, Name = "Swan" },
+            new Product { ProductId = 26, CategoryId = 3, Name = "Blackbird" },
+            new Product { ProductId = 27, CategoryId = 3, Name = "Tit" },
+            new Product { ProductId = 28, CategoryId = 4, Name = "Kell 1" },
+            new Product { ProductId = 29, CategoryId = 4, Name = "Kell 2" },
+            new Product { ProductId = 30, CategoryId = 4, Name = "Kell 3" },
+            new Product { ProductId = 31, CategoryId = 4, Name = "Kell 4" },
+            new Product { ProductId = 32, CategoryId = 4, Name = "Kell 5" },
+            new Product { ProductId = 33, CategoryId = 4, Name = "Kell 6" });
     }
 }

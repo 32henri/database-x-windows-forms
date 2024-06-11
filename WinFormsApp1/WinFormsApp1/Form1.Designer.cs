@@ -52,10 +52,10 @@
             dataGridViewCategories.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewCategories.Columns.AddRange(new DataGridViewColumn[] { categoryIdDataGridViewTextBoxColumn, nameDataGridViewTextBoxColumn });
             dataGridViewCategories.DataSource = categoryBindingSource;
-            dataGridViewCategories.Location = new Point(124, 153);
+            dataGridViewCategories.Location = new Point(43, 52);
             dataGridViewCategories.Name = "dataGridViewCategories";
             dataGridViewCategories.RowTemplate.Height = 25;
-            dataGridViewCategories.Size = new Size(240, 150);
+            dataGridViewCategories.Size = new Size(246, 241);
             dataGridViewCategories.TabIndex = 0;
             dataGridViewCategories.SelectionChanged += dataGridViewCategories_SelectionChanged;
             // 
@@ -82,10 +82,10 @@
             dataGridViewProducts.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewProducts.Columns.AddRange(new DataGridViewColumn[] { productIdDataGridViewTextBoxColumn, nameDataGridViewTextBoxColumn1, categoryIdDataGridViewTextBoxColumn1, categoryDataGridViewTextBoxColumn });
             dataGridViewProducts.DataSource = productsBindingSource;
-            dataGridViewProducts.Location = new Point(508, 153);
+            dataGridViewProducts.Location = new Point(343, 52);
             dataGridViewProducts.Name = "dataGridViewProducts";
             dataGridViewProducts.RowTemplate.Height = 25;
-            dataGridViewProducts.Size = new Size(240, 150);
+            dataGridViewProducts.Size = new Size(445, 241);
             dataGridViewProducts.TabIndex = 1;
             // 
             // productIdDataGridViewTextBoxColumn
@@ -120,7 +120,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(682, 394);
+            button1.Location = new Point(693, 327);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 2;
